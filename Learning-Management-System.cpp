@@ -1,9 +1,9 @@
 //Learning Management System
-#include <fstream>
-#include <iostream>
-#include <iomanip>
-#include <string>
-#include <stdlib.h>
+#include <fstream>//file handling
+#include <iostream>//cin and cout statements
+#include <iomanip>//input output management
+#include <string>//adding strings library
+#include <stdlib.h>//Input and Output operations can also be performed in C++ using the C Standard Input and Output Library
 using namespace std;
 
 // this function will check whether credit hours are between 0 to 3 or not

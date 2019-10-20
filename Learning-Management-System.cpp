@@ -1,8 +1,9 @@
-#include <fstream>
-#include <iostream>
-#include <iomanip>
-#include <string>
-#include <stdlib.h>
+//Learning Management System
+#include <fstream>//file handling
+#include <iostream>//cin and cout statements
+#include <iomanip>//input output management
+#include <string>//adding strings library
+#include <stdlib.h>//Input and Output operations can also be performed in C++ using the C Standard Input and Output Library
 using namespace std;
 
 // this function will check whether credit hours are between 0 to 3 or not
@@ -995,7 +996,7 @@ void saveStudents(string stdRegNoList[], string stdNameList[], string stdCourseL
 }
 
 //this function will load the students in the external file in the memory
-void loadsStudents(string stdRegNoList[], string stdNameList[], string stdCourseList[][100])
+void loadsStudents(string stdRegNoList[], string stdNameList[], string stdCourseList[][100])//loading function
 {
 
 	ifstream check, op;
@@ -1127,7 +1128,7 @@ bool loadstd(string registration_no, string password)
 		return 0;
 	}
 }
-
+//Main STARTS HERE
 int main()
 {
 	system("CLS");
@@ -1709,8 +1710,7 @@ int main()
 		default:
 		{
 			cout << endl
-				 << "Invalid Option. Please enter 1 or 2. " << endl
-				 << endl;
+				 << "Invalid Option. Please enter 1 or 2. " <<endl<<endl;
 		}
 		}
 	}

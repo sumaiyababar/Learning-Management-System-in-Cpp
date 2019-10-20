@@ -1,3 +1,4 @@
+//Learning Management System
 #include <fstream>
 #include <iostream>
 #include <iomanip>
@@ -995,7 +996,7 @@ void saveStudents(string stdRegNoList[], string stdNameList[], string stdCourseL
 }
 
 //this function will load the students in the external file in the memory
-void loadsStudents(string stdRegNoList[], string stdNameList[], string stdCourseList[][100])
+void loadsStudents(string stdRegNoList[], string stdNameList[], string stdCourseList[][100])//loading function
 {
 
 	ifstream check, op;
@@ -1127,7 +1128,7 @@ bool loadstd(string registration_no, string password)
 		return 0;
 	}
 }
-
+//Main STARTS HERE
 int main()
 {
 	system("CLS");
@@ -1709,8 +1710,7 @@ int main()
 		default:
 		{
 			cout << endl
-				 << "Invalid Option. Please enter 1 or 2. " << endl
-				 << endl;
+				 << "Invalid Option. Please enter 1 or 2. " <<endl<<endl;
 		}
 		}
 	}
